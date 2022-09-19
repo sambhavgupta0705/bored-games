@@ -1,0 +1,36 @@
+.root {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  letter-spacing: 15px;
+  font-size: 72px;
+  animation-name: example;
+  animation-duration: 5s;
+  transition: ease-in 350ms;
+  background-color: #c51935;
+  padding: 10px;
+}
+
+@keyframes example {
+  0% {
+    transform: rotate(90deg);
+    background-color: transparent;
+  }
+  to {
+    background-color: c51935;
+    box-shadow: 10px 10px 2px 0px rgba(197, 25, 53, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(197, 25, 53, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(197, 25, 53, 0.75);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 20px;
+  }
+}

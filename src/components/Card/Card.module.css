@@ -1,0 +1,65 @@
+.card {
+  height: 200px;
+  width: 450px;
+  background-color: #141414;
+  margin: auto;
+  border-radius: 10px 10px 0px 0px;
+}
+.image {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.title {
+  height: 30px;
+  width: 450px;
+  background-color: #141414;
+  margin: auto;
+  padding-left: 10px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.action {
+  height: 30px;
+  width: 450px;
+  background-color: #141414;
+  margin: auto;
+  box-shadow: 2px 0px 10px 2px #303030;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  align-items: stretch;
+}
+
+.button {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-family: "IBM Plex Mono", monospace;
+  color: white;
+  cursor: pointer;
+}
+.play {
+  border-radius: 0px 0px 10px 10px;
+  background-color: #c51935;
+}
+.info {
+  border-radius: 0px 0px 10px 0px;
+  background-color: #313131;
+}
+
+@media screen and (max-width: 540px) {
+  .card,
+  .action,
+  .title {
+    width: 250px;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+}

@@ -1,0 +1,9 @@
+.score_card {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  border: 1px solid white;
+  margin: 10px 20px;
+  padding: 10px;
+  border-radius: 10px;
+}

@@ -1,0 +1,21 @@
+.nav {
+  padding: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  letter-spacing: 10px;
+  text-align: center;
+  flex-grow: 1;
+  text-shadow: 2px 2px red;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 18px;
+  }
+}

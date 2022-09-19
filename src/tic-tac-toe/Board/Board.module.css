@@ -1,0 +1,16 @@
+.board {
+  border-radius: 10px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  margin: 10px auto;
+  width: 300px;
+  height: 300px;
+}
+
+.square {
+  border: 2px solid black;
+  background: peach;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+}

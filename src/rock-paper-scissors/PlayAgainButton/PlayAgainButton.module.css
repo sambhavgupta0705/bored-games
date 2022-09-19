@@ -1,0 +1,19 @@
+.play_again {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: 24px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.play_again:hover {
+  background-color: #323232;
+}

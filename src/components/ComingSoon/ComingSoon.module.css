@@ -1,0 +1,13 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.msg {
+  font-family: "IBM Plex Mono", monospace;
+  letter-spacing: 20px;
+  text-shadow: 2px 3px red;
+  font-size: 40px;
+}

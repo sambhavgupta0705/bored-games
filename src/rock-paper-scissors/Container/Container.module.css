@@ -1,0 +1,91 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score_card {
+  display: flex;
+  align-items: center;
+}
+
+.players {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.choices {
+  padding: 10px;
+  margin: 10px 100px;
+  text-transform: uppercase;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: none;
+  border: 5px solid orange;
+  font-size: 40px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+.buttons {
+  padding: 50px;
+}
+.rock {
+  border: 5px solid purple;
+}
+.paper {
+  border: 5px solid red;
+}
+.scissors {
+  border: 5px solid green;
+}
+
+.rock,
+.paper,
+.scissors {
+  height: 90px;
+  width: 90px;
+  margin: 10px 30px;
+}
+
+.user_turns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  .buttons {
+    padding: 20px;
+  }
+
+  .rock,
+  .paper,
+  .scissors {
+    height: 70px;
+    width: 70px;
+    margin: 10px 10px;
+  }
+  .choices {
+    height: 60px;
+    width: 60px;
+    font-size: 24px;
+    margin: 10px 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .rock,
+  .paper,
+  .scissors {
+    height: 80px;
+    width: 80px;
+    font-size: 24px;
+    margin: 10px 10px;
+  }
+}

@@ -1,0 +1,72 @@
+.root {
+  background-color: #151515;
+  margin: 20px 20%;
+  padding: 20px;
+  border: 2px solid #323232;
+  border-radius: 10px;
+}
+
+.scoreCard {
+  padding: 20px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.answers {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 14px 0px;
+}
+
+.question_text {
+  padding: 10px 0px;
+}
+.options {
+  border-radius: 20px;
+  outline: none;
+  border: 2px solid #323232;
+  text-align: left;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #212121;
+  color: white;
+  cursor: pointer;
+}
+
+.options:hover {
+  background-color: #333;
+}
+.playAgainDiv {
+  text-align: center;
+}
+.playAgain {
+  border-radius: 20px;
+  outline: none;
+  border: 2px solid #323232;
+  text-align: left;
+  padding: 10px 14px;
+  font-size: 18px;
+  background-color: #212121;
+  color: white;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.playAgain:hover {
+  background-color: #333;
+}
+/* media queries */
+@media only screen and (max-width: 600px) {
+  .root {
+    font-size: 16px;
+    margin: 20px 10%;
+  }
+  .answers {
+    display: flex;
+    flex-direction: column;
+  }
+  .options {
+    font-size: 16px;
+  }
+}

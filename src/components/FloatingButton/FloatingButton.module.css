@@ -1,0 +1,19 @@
+.float {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #141414;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  text-shadow: 2px 2px red;
+  margin-top: -5px;
+}
